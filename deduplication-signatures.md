@@ -24,7 +24,7 @@ Provide detailed information about a specific signature. The JSON response docum
 ```
 
 Attributes:
-* signature-type: the type of the signature
+* signatureType: the type of the signature
 * groupReviewerCheck: number of groups identified by the system and not reject by the reviewers
 * groupSubmitterCheck: number of groups identified by the system and not reject by the submitters
 * groupAdminstratorCheck: number of groups identified by the system and not reject by the administrators
