@@ -14,7 +14,7 @@ Return codes:
 
 ### Search methods
 #### findBySignature
-**/api/core/deduplications/groups/search/findBySignature?signature-type=<:signature-type>**
+**GET /api/core/deduplications/groups/search/findBySignature?signature-type=<:signature-type>**
 
 It returs the groups of a specific signature.
 
@@ -27,7 +27,7 @@ Return codes:
 * 400 Bad Request - if the signature-type parameter is missing or invalid
 
 #### findBySignatureAndRule
-**/api/core/collections/search/findBySignature?signature-type=<:signature-type>&rule=<:rule>**
+**GET /api/core/collections/search/findBySignature?signature-type=<:signature-type>&rule=<:rule>**
 
 It returs the groups of a specific signature not accepted or rejected by submitters, reviewers or administrators.
 
