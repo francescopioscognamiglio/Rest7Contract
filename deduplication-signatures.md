@@ -3,10 +3,6 @@
 
 Provide access to the configured signatures. It returns the list of existent signatures.
 
-Attributes:
-
-Exposed links:
-
 Return codes:
 * 200 OK - if the operation succeed
 * 401 Unauthorized - if you are not authenticated
@@ -19,7 +15,6 @@ Provide detailed information about a specific signature. The JSON response docum
 
 ```json
 {
-  signatureType: "title_signature", (forse non serve, perché già nella chiamata é incluso il signatureType
   groupReviewerCheck: 0,
   groupSubmitterCheck: 0,
   groupAdminstratorCheck: 0
@@ -28,8 +23,6 @@ Provide detailed information about a specific signature. The JSON response docum
 
 Attributes:
 * signature-type: the type of the signature (es. title_signature)
-
-Exposed links:
 
 Return codes:
 * 200 OK - if the operation succeed
@@ -44,8 +37,6 @@ Provide access to the groups of a specific signature. It returns the list of exi
 
 Attributes:
 * signature-type: the type of the signature (es. title_signature)
-
-Exposed links:
 
 Return codes:
 * 200 OK - if the operation succeed
