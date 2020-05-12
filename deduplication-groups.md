@@ -22,7 +22,7 @@ The supported parameters are:
 
 Return codes:
 * 200 OK - if the operation succeed
-* 400 Bad Request - if the signature-tpye parameter is missing or invalid
+* 400 Bad Request - if the signature-type parameter is missing or invalid
 
 #### findBySignatureAndRule
 **/api/core/collections/search/findBySignature?signature-type=<:signature-type>&rule=<:rule>**
@@ -34,4 +34,4 @@ The supported parameters are:
 
 Return codes:
 * 200 OK - if the operation succeed
-* 400 Bad Request - if the signature-tpye or the rule parameter is missing or invalid
+* 400 Bad Request - if the signature-type or the rule parameter is missing or invalid
