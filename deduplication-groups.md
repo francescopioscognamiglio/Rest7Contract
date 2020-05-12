@@ -16,6 +16,8 @@ Return codes:
 #### findBySignature
 **/api/core/deduplications/groups/search/findBySignature?signature-type=<:signature-type>**
 
+It returs the groups of a specific signature.
+
 The supported parameters are:
 * **(mandatory)** signature-type, the type of the signature (i.e. "title", etc.)
 * page, size [see pagination](README.md#Pagination)
@@ -26,6 +28,8 @@ Return codes:
 
 #### findBySignatureAndRule
 **/api/core/collections/search/findBySignature?signature-type=<:signature-type>&rule=<:rule>**
+
+It returs the groups of a specific signature not accepted or rejected by submitters, reviewers or administrators.
 
 The supported parameters are:
 * **(mandatory)** signature-type, the type of the signature (i.e. "title", etc.)
