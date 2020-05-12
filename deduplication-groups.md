@@ -1,5 +1,5 @@
 ## Main Endpoint
-**GET /api/core/deduplications/groups/<signature-type>:<group-checksum>**
+**GET /api/core/deduplications/groups/<:signature-id>:<:group-checksum>**
 
 Provide access to the items of a specific group. It returns the list of items of a specific group.
 
