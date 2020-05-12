@@ -27,7 +27,7 @@ Provide detailed information about a specific signature. The JSON response docum
 ```
 
 Attributes:
-* id: the type of the signature (es. title_signature)
+* signature-type: the type of the signature (es. title_signature)
 
 Exposed links:
 
@@ -43,7 +43,7 @@ Return codes:
 Provide access to the groups of a specific signature. It returns the list of existent groups of a signature.
 
 Attributes:
-* id: the id of the signature
+* signature-type: the type of the signature (es. title_signature)
 
 Exposed links:
 
