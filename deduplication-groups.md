@@ -1,5 +1,5 @@
 ## Main Endpoint
-**GET /api/core/deduplications/groups/<:signature-id>:<:group-checksum>**
+**GET /api/core/deduplications/groups/<:signature-type>:<:group-checksum>**
 
 Provide access to the items of a specific group. It returns the list of items of a specific group.
 
@@ -27,7 +27,7 @@ Return codes:
 * 400 Bad Request - if the signature-type parameter is missing or invalid
 
 #### findBySignatureAndRule
-**GET /api/core/collections/search/findBySignature?signature-type=<:signature-type>&rule=<:rule>**
+**GET /api/core/collections/search/findBySignatureAndRule?signature-type=<:signature-type>&rule=<:rule>**
 
 It returs the groups of a specific signature not accepted or rejected by submitters, reviewers or administrators.
 
