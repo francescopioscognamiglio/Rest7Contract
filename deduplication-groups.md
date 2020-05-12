@@ -1,13 +1,11 @@
 ## Main Endpoint
 **GET /api/core/deduplications/groups/<signature_type>:<group_id>**   
-(prima era /api/core/deduplications/signatures/<:signature_id>/groups/<:group_id>)
+
 Provide access to the items of a specific group. It returns the list of items of a specific group.
 
 Attributes:
 * signature-type: the type of the signature (es. title_signature)
 * group_id: the id of the group
-
-Exposed links:
 
 Return codes:
 * 200 OK - if the operation succeed
