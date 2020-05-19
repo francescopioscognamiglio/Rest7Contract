@@ -16,6 +16,7 @@ Provide detailed information about a specific signature. The JSON response docum
 ```json
 {
   id: "title",
+  type: "signatureObject",
   signatureType: "title",
   groupReviewerCheck: 0,
   groupSubmitterCheck: 0,
